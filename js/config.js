@@ -13,135 +13,113 @@ const PASSWORD_CONFIG = {
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: '123121',
+    name: 'LibreTV',
     url: 'https://libretv.is-an.org',
     description: '提供全网高清电影资源的聚合平台',
     logo: 'image/logo.png',
     version: '1.0.3'
 };
 
-// API源配置（增加 defaultChecked: true 实现默认全选）
+// API源配置
 const API_SITES = {
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
         detail: 'http://caiji.dyttzyapi.com',
-        defaultChecked: true
     },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意资源',
-        defaultChecked: true
     },
     bfzy: {
         api: 'https://bfzyapi.com/api.php/provide/vod',
         name: '笔锋资源',
-        defaultChecked: true
     },
     tyyszy: {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天天影视资源',
-        defaultChecked: true
     },
     xiaomaomi: {
         api: 'https://zy.xmm.hk/api.php/provide/vod',
         name: '小猫咪影视',
-        defaultChecked: true
     },
     ffzy: {
         api: 'http://ffzy5.tv/api.php/provide/vod',
         name: '风风影视',
         detail: 'http://ffzy5.tv',
-        defaultChecked: true
     },
     heimuer: {
         api: 'https://json.heimuer.xyz/api.php/provide/vod',
         name: '黑木耳影视',
         detail: 'https://heimuer.tv',
-        defaultChecked: true
     },
     zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
         name: '360影视资源',
-        defaultChecked: true
     },
     iqiyi: {
         api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
         name: 'iqiyi影视资源',
-        defaultChecked: true
     },
     wolong: {
         api: 'https://wolongzyw.com/api.php/provide/vod',
         name: '卧龙影视',
-        defaultChecked: true
     },
     hwba: {
         api: 'https://cjhwba.com/api.php/provide/vod',
         name: '欢乐吧影视',
-        defaultChecked: true
     },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
         name: '极速影视',
         detail: 'https://jszyapi.com',
-        defaultChecked: true
     },
     dbzy: {
         api: 'https://dbzy.tv/api.php/provide/vod',
         name: '朴嗙摚资源',
-        defaultChecked: true
     },
     mozhua: {
         api: 'https://mozhuazy.com/api.php/provide/vod',
         name: '魔爪影视',
-        defaultChecked: true
     },
     mdzy: {
         api: 'https://www.mdzyapi.com/api.php/provide/vod',
         name: '魔豆影视',
-        defaultChecked: true
     },
     zuid: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
-        name: '最顶影视',
-        defaultChecked: true
+        name: '最顶影视'
     },
     yinghua: {
         api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
-        name: '樱花影视',
-        defaultChecked: true
+        name: '樱花影视'
     },
     baidu: {
         api: 'https://api.apibdzy.com/api.php/provide/vod',
-        name: '百度资源',
-        defaultChecked: true
+        name: '百度资源'
     },
     wujin: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
-        name: '无尽资源',
-        defaultChecked: true
+        name: '无尽资源'
     },
     wwzy: {
         api: 'https://wwzy.tv/api.php/provide/vod',
-        name: '午夜影视',
-        defaultChecked: true
+        name: '午夜影视'
     },
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
-        name: 'iKun影视',
-        defaultChecked: true
+        name: 'iKun影视'
     },
     lzi: {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
-        name: '凌子资源',
-        defaultChecked: true
+        name: '凌子资源'
     },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '测试源',
-        adult: true,
-        defaultChecked: true
-    }
+        adult: true
+    },
+    // 以下注释部分是可能存在的成人API源，默认隐藏
 };
 
 // 定义扩展API方法
