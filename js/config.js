@@ -13,7 +13,7 @@ const PASSWORD_CONFIG = {
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: 'LibreTV',
+    name: '123121',
     url: 'https://libretv.is-an.org',
     description: '提供全网高清电影资源的聚合平台',
     logo: 'image/logo.png',
